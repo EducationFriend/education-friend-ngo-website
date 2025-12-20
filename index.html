@@ -485,61 +485,60 @@
     <section id="contact" class="section section-contact">
       <h2 class="section-title">Contact / Volunteer</h2>
       <div class="container contact-grid">
+          <!-- FORM (TOP) -->
         <div class="contact-form-wrap">
-          <p>
-            Interested to volunteer or support? Fill the form and we will reach
-            out.
-          </p>
+            <p>
+              Interested to volunteer or support? Fill the form and we will reach out.
+            </p>
 
-          <form id="contactForm" class="contact-form" novalidate>
+             <form id="contactForm" class="contact-form" novalidate>
             <input id="vname" type="text" placeholder="Name" required />
-            <input
-              id="vphone"
-              type="tel"
-              placeholder="Phone Number "
-              required
-            />
-            <input id="vemail" type="email" placeholder="Email" required />
-            <textarea
+            <input id="vphone" type="tel" placeholder="Phone Number" required />
+           <input id="vemail" type="email" placeholder="Email" required />
+             <textarea
               id="vmsg"
-              type="text"
               placeholder="Message"
               rows="5"
               required
             ></textarea>
 
-            <div class="form-actions">
-              <button class="btn" type="submit">Send Message</button>
-              <a class="btn outline" href="#donate">Donate</a>
-            </div>
+             <div class="form-actions">
+             <button class="btn" type="submit">Send Message</button>
+             <a class="btn outline" href="#donate">Donate</a>
+             </div>
 
-            <p id="formStatus" class="form-status" aria-live="polite"></p>
-          </form>
+            <p id="formStatus" class="form-status"></p>
+           </form>
         </div>
 
-        <aside class="contact-info">
-          <div class="info-card">
-            <h3>Visit / Contact</h3>
-            <p>Address: Amhat, Nakchhed ka Purva</p>
-            <p>Distric: Sultanpur</p>
-            <p>Phone: +91 9936361463 / +91 9453516663</p>
-            <p>Email: info@ruralacademy.org</p>
+    <!-- RIGHT / LEFT (same line): VISIT CARD -->
+    <div class="contact-bottom">
+    <aside class="contact-info">
+      <div class="info-card">
+        <h3>Visit / Contact</h3>
+        <p>Address: Amhat, Nakchhed ka Purva</p>
+        <p>District: Sultanpur</p>
+        <p>Phone: +91 9936361463 / +91 9453516663</p>
+        <p>Email: info@ruralacademy.org</p>
 
-            <div class="socials">
-              <a href="#" aria-label="facebook">
-                <i class="fa-brands fa-facebook"></i> Facebook</a
-              >
-              <a href="#" aria-label="instagram">
-                <i class="fa-brands fa-instagram"></i> Instagram</a
-              >
-              <a href="#" aria-label="whatsapp">
-                <i class="fa-brands fa-whatsapp"></i> Whatsapp</a
-              >
-            </div>
-          </div>
-        </aside>
+        <div class="socials">
+          <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+          <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
+        </div>
       </div>
-    </section>
+    </aside>
+
+     <!-- RIGHT: Google Map -->
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d223.73334624878868!2d81.98484720318848!3d26.205344892031707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399a63002aab66ad%3A0x18863eaf0a3bf2d5!2sHandicapped%20Child%20Organization!5e0!3m2!1sen!2sin!4v1766225621868!5m2!1sen!2sin" width="700" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </div>
+
+  </div>
+</section>
+
+
 
     <!-- ======FOOTER====== -->
     <footer class="site-footer">
@@ -568,10 +567,6 @@
         once: true,
       });
     </script>
-    <script src="./scripts/animationScripts.js"></script>
-    <script src="./scripts/scripts.js"></script>
-  </body>
-</html>
     <script src="./scripts/animationScripts.js"></script>
     <script src="./scripts/scripts.js"></script>
   </body>
